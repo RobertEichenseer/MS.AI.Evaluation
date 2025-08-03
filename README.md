@@ -1,6 +1,6 @@
-# MS.AI.Evaluation | Unit Test Evaluation
+# GenAI Applications | Unit Test Evaluation
 
-Unit testing of GenAI applications and agentic applications.
+Unit testing of GenAI applications and agentic applications using the `Microsoft.Extensions.AI.Evaluation' nuget package.
 
 ## Intro
 
