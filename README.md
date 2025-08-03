@@ -6,9 +6,13 @@ Unit testing of GenAI applications and agentic applications.
 
 Integrating the testing of GenAI applications into existing DevOps pipelines is essential to ensure the reliability, safety, and quality of AI-driven solutions. 
 
+![Overview](./media/img/overview.jpg)
+
 Automated testing within the pipeline enables early detection of issues, continuous validation of model behavior, and rapid feedback for development teams.
 
 Microsoft provides the `Microsoft.Extensions.AI.Evaluation` NuGet package, offering simple and powerful support for unit testing completion results from language models. This package streamlines the evaluation process, making it easier to validate and ensure the quality of AI-generated outputs by providing out-of-the box evaluators as well as foundation classes to build custom evaluators.
+
+Unit tests can be executed on the local developer machine as well as fully integrated into automatic pipelines. The nuget package is environment agnostic allowing changing LLMs which evaluate GenAI functionality.
 
 ## Repo Content
 
